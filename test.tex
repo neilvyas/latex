@@ -1,0 +1,46 @@
+\documentclass{assignment}
+\usepackage{mymath}
+
+\begin{document}
+\header{Testing Class}{Assignment 1}
+
+Testing.
+\R \N \Com \Sym \Spp $\Sp_n$
+
+This is pretty much as elaborate as a question can get.
+\question[1.3]{
+    This is the text for a question. This question has multiple parts.
+    \begin{qparts}
+      \item this is part a
+        $$
+        P_\lambda = \prod_{r\in E, r\neq\lambda}(\lambda - r)
+        $$
+      \item this is part b
+      \item this is the third part
+    \end{qparts}
+  }
+
+This question shows spacing without any leading text, i.e. only parts of the question.
+\question[1.3]{
+    \begin{qparts}
+      \item this is part a
+      \item this is part b
+      \item this is the third part
+    \end{qparts}
+  }
+
+This question omits the number/title.
+\question{
+    \begin{qparts}
+      \item this is part a
+      \item this is part b
+      \item this is the third part
+    \end{qparts}
+  }
+
+This question has a name.
+\question[Compressive Sensing]{
+  Consider the overdetermined regime with a sparse generator.
+}
+
+\end{document}
