@@ -1,0 +1,4 @@
+#ignoring latex byproducts
+*.pdf
+*.aux
+*.bbl
