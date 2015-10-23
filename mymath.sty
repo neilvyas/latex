@@ -1,0 +1,40 @@
+%this file contains helpful macros for setting math-heavy homeworks.
+%----------------------------------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mymath}[2014/10/23 Common math macros]
+%----------------------------------------------------------------------------------------------------
+%REQUIREMENTS
+%----------------------------------------------------------------------------------------------------
+\RequirePackage{mathtools}
+\RequirePackage{amssymb}
+%----------------------------------------------------------------------------------------------------
+%MATH STUFF
+%----------------------------------------------------------------------------------------------------
+%common fields/sets used
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Com}{\ensuremath{\mathbb{C}}}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+
+\newcommand{\Sym}{\ensuremath{\mathbb{S}}}
+\newcommand{\Sp}{\ensuremath{\mathbb{S}^+}}
+\newcommand{\Spp}{\ensuremath{\mathbb{S}^{++}}}
+
+%finite field - provide order as argument.
+\newcommand{\F}[1]{\ensuremath{\mathbb{F}_#1}}
+
+%----------------------------------------------------------------------------------------------------
+%TEXT STUFF
+%----------------------------------------------------------------------------------------------------
+%common text operators
+\DeclareMathOperator{\spn}{span}
+
+%common text used in mathmode.
+\newcommand{\st}{\ensuremath{\text{ s.t. }}}
+
+%for align environments
+%justifying a step
+%TODO: right-align this?
+\newcommand{\note}[1]{
+  \ensuremath{\text{#1}}
+}
