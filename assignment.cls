@@ -7,6 +7,7 @@
 \RequirePackage{xparse}
 \RequirePackage{enumitem}
 \RequirePackage{mdframed}
+\RequirePackage[svgcolors]{xcolor}
 %----------------------------------------------------------------------------------------------------
 %GENERAL PAGE SETTINGS
 %----------------------------------------------------------------------------------------------------
@@ -18,18 +19,23 @@
 %----------------------------------------------------------------------------------------------------
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
+%in case you want some nice red accents like 
+% https://www.usenix.org/system/files/login/articles/08_lloyd_41-43_online.pdf
+\definecolor{framecolor}{HTML}{EE3F34}
 %sets a nice four-part header on top: Class, Assignment, [[Name]], [[UTEID]]
 \newcommand{\header}[2]{
+  \textcolor{black}{
   \textbf{#1}\hfill\textbf{#2}\vspace{-5pt}
-  \makebox[\linewidth]{\rule{\linewidth}{2pt}} \\
+  \makebox[\linewidth]{\textcolor{black}{\rule{\linewidth}{1pt}}}\\
   \textbf{Neil Vyas}\hfill nv4594\\
+  }
 }
 
 %for boxing questions so that they stand out.
 %if you provide a number or title, it will set it in bold on top.
 %TODO: Maybe set short titles (numbers) in a column on the left for vertical space saving?
 \NewDocumentCommand{\question}{ o m }{
-  \begin{mdframed}
+  \begin{mdframed}[linecolor=black, linewidth=1pt]
     \IfValueT{#1}{\textbf{#1}}
     #2
   \end{mdframed}
