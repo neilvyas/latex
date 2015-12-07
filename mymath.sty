@@ -26,14 +26,29 @@
 %finite field - provide order as argument.
 \newcommand{\F}[1]{\ensuremath{\mathbb{F}_#1}}
 
+\newcommand{\GL}{\ensuremath{\mathrm{GL}}}
+
+%operators
+\DeclareMathOperator{\spn}{span}
+\DeclareMathOperator{\trace}{trace}
+%\DeclareMathOperator{\dim}{dim}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\Img}{Im}
+\DeclareMathOperator{\Hom}{Hom}
+
+%modifiers
+\newcommand*\conj[1]{\overline{#1}}
+
+%symbols
+\newcommand{\Chi}{\chi}
+
 %----------------------------------------------------------------------------------------------------
 %TEXT STUFF
 %----------------------------------------------------------------------------------------------------
-%common text operators
-\DeclareMathOperator{\spn}{span}
 
 %common text used in mathmode.
 \newcommand{\st}{\ensuremath{\text{ s.t. }}}
+\newcommand{\divs}{\ensuremath{\text{ divides }}}
 
 %for align environments
 %justifying a step
@@ -41,3 +56,6 @@
 \newcommand{\note}[1]{
   \ensuremath{\text{#1}}
 }
+
+%proofs
+\newcommand{\qed}{\hfill\blacksquare}
