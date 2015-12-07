@@ -11,9 +11,10 @@
 %----------------------------------------------------------------------------------------------------
 %GENERAL PAGE SETTINGS
 %----------------------------------------------------------------------------------------------------
-\RequirePackage[a4paper, total={6in, 10in}]{geometry}
-\RequirePackage{heuristica}
-\RequirePackage[heuristica,vvarbb,bigdelims]{newtxmath}
+\RequirePackage[a4paper, total={7in, 10in}]{geometry}
+\RequirePackage{tgpagella}
+%\RequirePackage{heuristica}
+%\RequirePackage[heuristica,vvarbb,bigdelims]{newtxmath}
 \RequirePackage[T1]{fontenc}
 \setlength\parindent{0pt}
 %----------------------------------------------------------------------------------------------------
