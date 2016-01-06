@@ -43,12 +43,12 @@
 }
 
 %macro definitions for the `\maketitle` command.
-\def\@subtitle{ }
+\def\@subtitle{}
 \newcommand{\subtitle}[1]{
   \def\@subtitle{#1}
 }
 
-\def\@class{ }
+\def\@class{}
 \newcommand{\class}[1]{
   \def\@class{#1}
 }
