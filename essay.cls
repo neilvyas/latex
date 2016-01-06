@@ -5,7 +5,7 @@
 %GENERAL PAGE SETTINGS
 %----------------------------------------------------------------------------------------------------
 \RequirePackage[margin=1in, headheight=35pt]{geometry}
-\RequirePackage[osf]{mathpazo} % Palatino and Palatino math
+\RequirePackage{tgpagella}
 \RequirePackage[scaled]{helvet} % Helvetica, scaled 95%
 \RequirePackage[T1]{fontenc} % better glyphs
 \setlength\parindent{1em}
