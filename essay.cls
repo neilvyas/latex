@@ -21,7 +21,7 @@
 %----------------------------------------------------------------------------------------------------
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
-\RequirePackage[sf]{titlesec} % Section Title Options (switches to sans-serif)
+%\RequirePackage[sf]{titlesec} % Section Title Options (switches to sans-serif)
 
 %right-aligned two-part header, with title on top and authorship information below.
 \renewcommand{\maketitle}{
