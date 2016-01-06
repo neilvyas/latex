@@ -19,3 +19,6 @@ span and argmin, etc.
 **assignment**  
 Subclasses `article`. Exposes nice header and question formatting. Also changes font to heuristica 
 and has some other tweaks.
+
+**essay**  
+Subclasses `article`. Redefines a pretty `\maketitle`, mostly, as well as typography and geometry changes.
