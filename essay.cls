@@ -4,7 +4,7 @@
 %----------------------------------------------------------------------------------------------------
 %GENERAL PAGE SETTINGS
 %----------------------------------------------------------------------------------------------------
-\RequirePackage[total={6.5in, 9in}]{geometry}
+\RequirePackage[margin=1in, headheight=35pt]{geometry}
 \RequirePackage[osf]{mathpazo} % Palatino and Palatino math
 \RequirePackage[scaled]{helvet} % Helvetica, scaled 95%
 \RequirePackage[T1]{fontenc} % better glyphs
