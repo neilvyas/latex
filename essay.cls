@@ -58,9 +58,6 @@
   \def\@institution{#1}
 }
 
-%default implementation - didn't want to re-define this.
-\author{Neil Vyas (nv4594)}
-
 \renewcommand{\abstractname}{\textsf{Summary}} % Change the display title of the `abstract` environment.
 
 \endinput
