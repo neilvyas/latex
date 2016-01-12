@@ -22,7 +22,8 @@
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
 \RequirePackage[hidelinks]{hyperref} % Linking ToC, no link chrome.
-\RequirePackage{cite} % bibtex
+\RequirePackage{cite} %simple bibtex
+%\RequirePackage[style=numeric,backend=biber]{biblatex} % complicated bibtex
 \hypersetup{
   linktoc=all,
 }
