@@ -21,7 +21,8 @@
 %----------------------------------------------------------------------------------------------------
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
-\RequirePackage[hidelinks]{hyperref}
+\RequirePackage[hidelinks]{hyperref} % Linking ToC, no link chrome.
+\RequirePackage{cite} % bibtex
 \hypersetup{
   linktoc=all,
 }
