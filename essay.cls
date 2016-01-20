@@ -12,7 +12,6 @@
 \linespread{1.05} % Palatino appreciates some space.
 
 \makeatletter % macro definitions - redifine this?
-\renewcommand{\@listI}{\itemsep=0pt} % Reduce vertical space between enum items.
 %----------------------------------------------------------------------------------------------------
 %IMAGES
 %----------------------------------------------------------------------------------------------------
@@ -22,6 +21,7 @@
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
 \RequirePackage[hidelinks]{hyperref} % Linking ToC, no link chrome.
+\RequirePackage{enumitem}
 \RequirePackage{cite} %simple bibtex
 %\RequirePackage[style=numeric,backend=biber]{biblatex} % complicated bibtex
 \hypersetup{
