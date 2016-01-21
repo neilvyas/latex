@@ -7,6 +7,7 @@
 %----------------------------------------------------------------------------------------------------
 \RequirePackage{mathtools}
 \RequirePackage{amssymb}
+\RequirePackage{amsthm}
 %----------------------------------------------------------------------------------------------------
 %MATH STUFF
 %----------------------------------------------------------------------------------------------------
@@ -58,4 +59,11 @@
 }
 
 %proofs
-\newcommand{\qed}{\hfill\blacksquare}
+%TODO: Write own theorem style - not so much vertical space, maybe boxes?
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\newtheorem*{defn}{Defn}
+\renewcommand\qedsymbol{$\blacksquare$}
+
