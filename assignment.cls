@@ -35,10 +35,16 @@
 %for boxing questions so that they stand out.
 %if you provide a number or title, it will set it in bold on top.
 %TODO: Maybe set short titles (numbers) in a column on the left for vertical space saving?
-\NewDocumentCommand{\question}{ o m }{
+%\NewDocumentCommand{\question}{ o m }{
+%  \begin{mdframed}[linecolor=black, linewidth=1pt]
+%    \IfValueT{#1}{\textbf{#1}}
+%    #2
+%  \end{mdframed}
+%}
+
+\newenvironment{question}[1][\unskip]{
   \begin{mdframed}[linecolor=black, linewidth=1pt]
-    \IfValueT{#1}{\textbf{#1}}
-    #2
+  \textbf{#1}}{
   \end{mdframed}
 }
 
