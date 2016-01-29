@@ -1,0 +1,96 @@
+\documentclass{resume}
+
+\name{\textsf{Neil Vyas}}
+\email{neilvyas@utexas.edu}
+%\linkedin{linkedin.com/in/neilvyas}
+\phone{(469) 487-5550}
+\website{neilvyas.me}
+\github{github.com/neilvyas}
+
+\begin{document}
+\maketitle
+
+\section{EDUCATION} 
+\textbf{The University of Texas at Austin} \hfill {\small Fall 2014 - \emph{Expected} Spring 2018}\\
+Bachelor of Science, Mathematics | GPA: \textbf{3.80} | \emph{Undergraduate GPA: 3.92}
+\vspace{1mm}                       % breathing room before deluge of courses.
+
+% Block of relevant courses, roughly ordered by term taken.
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{c l c l c l}
+EE 381V & Grad. Machine Learning \emph{(auditing)} & M 372K & PDEs & M 365C & Real Analysis \\
+\hline \vspace{-1em}\\ 
+CS 388R & Grad. Randomized Algorithms & EE 381K & Grad. Convex Optimization & M 373K & Abstract Algebra\\
+EE 381J & Grad. Prob. and Stochastic Processes & M 362M & Stochastic Processes& M 427LH & Vector Calculus Honors \\
+M 341H & Linear Algebra Honors & M 361 & Complex Analysis & M 427KH & Differential Equations Honors\\
+%M 427LH & Vector Calculus Honors & M 362K & Probability & M325K & Discrete Mathematics\\
+\end{tabular}
+\end{adjustbox}
+
+\section{SKILLS}
+\textbf{Languages \& Software:}
+
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{l l r l r l}
+\textbf{Experienced:} & Python, Git, \LaTeX & \textbf{Intermediate:} & Scala, R, SQL, Spark &
+\textbf{Exposure:} & Haskell, Javascript 
+\end{tabular}
+\end{adjustbox} 
+
+\textbf{Operating Systems:}
+OSX and GNU/Linux (Ubuntu and Arch)
+
+\section{WORK EXPERIENCE}
+\textbf{Yelp}, San Francisco, CA \hfill{\small May 2016 - August 2016}\\
+Search Recommendations Intern \\
+
+\textbf{Civitas Learning}, Austin, TX \hfill{\small January 2015 - Present}\\
+Data Scientist Intern \\
+\emph{Using predictive analytics to increase academic performance at over 70 partner institutions.}
+\begin{itemize}\itemsep-0.3em
+%\item Performed Feature Engineering with Spark, GraphX, EMR, and internal infrastructure
+%\item Evaluated quality of features by computing divergence measures on outcomes
+\item Created time-dependent clustering to understand student enrollment pathways
+\item Performed ad-hoc analysis and defined data sources using Postgres and Redshift
+\item Designed lightweight RESTful data visualizations using Flask (python) and D3.js
+%\item Refactored, maintained, and extended a python-based data science analysis prototype
+\item Performed QA for logistic regression workflows (data availability and regularization)
+\item Proved properties of a novel method for Propensity Score Matching/Weighting, \\
+      \-\hspace{1em} for use in causal analysis of the effects of campus programs
+\end{itemize}
+\vspace{-4pt}                      % `itemize` has some extra vertical space at the bottom.
+
+\section{PROJECTS}
+\textbf{Hedge Fund Alpha Analytics}\\
+\emph{Analytics Dashboard for exploring the space of Hedge Funds by type and performance.}
+\begin{itemize}\itemsep-0.3em
+\item Sourced data from quarterly 13F filings, return streams
+\item Created an analytics dashboard using R (Shiny) and Javascript
+\item Reactive hierarchal clustering using user-selected features, metric
+\item Clustering successfully recovered  different ``heuristic'' classes of HFs, \\
+      \-\hspace{1em} providing quantitative evidence for this classification scheme
+%\item Managing multiple developers using github, reviewing code with an emphasis on extensibility 
+\end{itemize}
+\vspace{-4pt}                      % `itemize` has some extra vertical space at the bottom.
+
+\section{ORGANIZATIONS}
+\textbf{Texas Undergraduate Computational Finance}, Director 
+  \hfill{\small Fall 2014 - Present}\\
+\emph{Developed algorithmic trading strategies, pitched and analyzed short-term options plays.}
+\begin{itemize}\itemsep-0.3em
+\item Implementing quantitative trading strategies using Quantopian (backtesting)
+%\item {\sl (Committee Head)} Designing and writing interactive options trading curriculum\\
+      %{\sl located at texas-ucf.github.io/options-curriculum}
+%\item Critiquing trading algorithm proposals that involve neural networks and genetic algorithms
+\item Applying machine learning techniques to financial markets
+\item Emphasis on options plays, with equity portfolio maintained by algo trading
+\item Built ELO-based webapp for ranking candidates during recruiting
+%\item Involved with recruiting efforts and educational outreach (public seminars, lectures, and games)
+\end{itemize} 
+\vspace{-4pt}                      % `itemize` has some extra vertical space at the bottom.
+
+%found out that I'm just not very interesting.
+%\section{HOBBIES \& INTERESTS}
+%Classical Music (Violin and Guitar), Statistical Learning, Terminal.app, Kayaking, Pacific Islands
+
+\end{document}
