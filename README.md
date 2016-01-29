@@ -31,6 +31,10 @@ This will change in the near future to a more MS-word like format, with double s
 **notes**  
 Subclasses the current `essay`, with the additional feature of giving a boxed `aside` environment.
 
+**resume**  
+A nice, sparse resume, set in Optima with lots of whitespace; you can switch to Palatino, a similar,
+but serif, rather than sans-serif, font if you'd like a more professional look.
+
 * * *
 ##Testing 
 
