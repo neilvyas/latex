@@ -1,4 +1,4 @@
-test: assignment essay notes
+test: assignment essay notes resume
 
 assignment:
 	rubber --pdf test/assignment_test.tex
@@ -14,6 +14,11 @@ notes:
 	rubber --pdf test/notes_test.tex
 	rubber --clean test/notes_test.tex
 	mv notes_test.pdf examples/notes_test.pdf
+
+resume:
+	rubber --pdf test/resume_test.tex
+	rubber --clean test/resume_test.tex
+	mv resume_test.pdf examples/resume_test.pdf
 
 clean:
 	rm -r *.aux
