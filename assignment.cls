@@ -20,18 +20,25 @@
 %----------------------------------------------------------------------------------------------------
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
-%in case you want some nice red accents like 
-% https://www.usenix.org/system/files/login/articles/08_lloyd_41-43_online.pdf
-\definecolor{framecolor}{HTML}{EE3F34}
-%sets a nice four-part header on top: Class, Assignment, [[Name]], [[UTEID]]
-\newcommand{\header}[2]{
-  \textcolor{black}{
-  \textbf{#1}\hfill\textbf{#2}\vspace{-5pt}
-  \makebox[\linewidth]{\textcolor{black}{\rule{\linewidth}{1pt}}}\\
-  \textbf{Neil Vyas}\hfill nv4594\\
-  }
-}
 
+%four-part header with separating middle rule.
+\renewcommand{\maketitle}{
+  \textbf{\@class}\hfill Homework \textbf{\@no}\vspace{-5pt}
+  \makebox[\linewidth]{\rule{\linewidth}{1pt}}\\
+  \textbf{\@author}\hfill \texttt{\@id}\\
+}
+%macro definitions for the `\maketitle` command.
+\def\@class{\unskip}
+\newcommand{\class}[1]{\def\@class{#1}}
+
+\def\@no{\unskip}
+\newcommand{\no}[1]{\def\@no{#1}}
+
+\def\@author{Neil Vyas}
+\renewcommand{\author}[1]{\def\@author{#1}}
+
+\def\@id{nv4594}
+\newcommand{\id}[1]{\def\@id{#1}}
 %for boxing questions so that they stand out.
 %if you provide a number or title, it will set it in bold on top.
 %TODO: Maybe set short titles (numbers) in a column on the left for vertical space saving?
