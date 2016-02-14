@@ -31,8 +31,8 @@
 \renewcommand{\maketitle}{
   \begin{center}
     {\huge\textbf{\@name}} \\
-    \begin{tabular}{c c c}
-      \@github & \@email & \@linkedin
+    \begin{tabular}{c c}
+      \@github & \@email %& \@linkedin
     \end{tabular} \\
     \begin{tabular}{c c}
       \@phone & \@website
