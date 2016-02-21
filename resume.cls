@@ -4,7 +4,7 @@
 %----------------------------------------------------------------------------------------------------
 %REQUIREMENTS
 %----------------------------------------------------------------------------------------------------
-\RequirePackage[margin=1in]{geometry}
+\RequirePackage[vmargin=0.5in, hmargin=1in]{geometry}
 \RequirePackage{nopageno}                       % Remove page numbering.
 \RequirePackage{tgpagella}                      % Palatino
 %\RequirePackage[scaled]{helvet}                % Helvetica, scaled 95%
