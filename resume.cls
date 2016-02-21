@@ -11,6 +11,7 @@
 \RequirePackage[sfdefault]{classico}                       % Free clone of Optima.
 \RequirePackage[T1]{fontenc}                    % better glyphs
 \RequirePackage{adjustbox}                      % getting tables to fit.
+\RequirePackage{enumitem}
 %----------------------------------------------------------------------------------------------------
 %SECTION FORMATTING
 %----------------------------------------------------------------------------------------------------
@@ -23,6 +24,9 @@
   {\hrule height 1pt}
   \end{center}
 }
+
+\setlist{noitemsep}
+\setlist[itemize]{rightmargin=1.5in}
 %----------------------------------------------------------------------------------------------------
 %HEADER AND MACROS
 %----------------------------------------------------------------------------------------------------
