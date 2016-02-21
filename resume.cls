@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[2016/01/04 Standard Resume Format]
-\LoadClass{article}
+\LoadClass[9pt]{extarticle}
 %----------------------------------------------------------------------------------------------------
 %REQUIREMENTS
 %----------------------------------------------------------------------------------------------------
