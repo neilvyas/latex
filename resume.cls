@@ -34,7 +34,7 @@
 %center aligned header with name prominently at the top.
 \renewcommand{\maketitle}{
   \begin{center}
-    {\huge\textbf{\@name}} \\
+    {\Huge\textbf{\@name}} \\
     \begin{tabular}{c c}
       \@github & \@email %& \@linkedin
     \end{tabular} \\
