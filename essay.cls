@@ -1,11 +1,11 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{essay}[2016/01/04 Standard Essay Format]
-\LoadClass{article}
+\LoadClass[12pt]{extarticle}
 %----------------------------------------------------------------------------------------------------
 %GENERAL PAGE SETTINGS
 %----------------------------------------------------------------------------------------------------
 \RequirePackage[margin=1in, headheight=35pt]{geometry}
-\RequirePackage{tgpagella}
+\RequirePackage{times}
 \RequirePackage[scaled]{helvet} % Helvetica, scaled 95%
 \RequirePackage[T1]{fontenc} % better glyphs
 \setlength\parindent{1em}
