@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume}[2016/01/04 Standard Resume Format]
+\ProvidesClass{compact_resume}[2016/01/04 Compact Resume Format]
 \LoadClass[9pt]{extarticle}
 %----------------------------------------------------------------------------------------------------
 %REQUIREMENTS
