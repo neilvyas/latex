@@ -9,7 +9,7 @@
 \RequirePackage[scaled]{helvet} % Helvetica, scaled 95%
 \RequirePackage[T1]{fontenc} % better glyphs
 \setlength\parindent{1em}
-\linespread{1.05} % Palatino appreciates some space.
+\linespread{1.5} % Palatino appreciates some space.
 
 \makeatletter % macro definitions - redifine this?
 %----------------------------------------------------------------------------------------------------
@@ -22,7 +22,8 @@
 %----------------------------------------------------------------------------------------------------
 \RequirePackage[hidelinks]{hyperref} % Linking ToC, no link chrome.
 \RequirePackage{enumitem}
-\RequirePackage{cite} %simple bibtex
+%\RequirePackage{cite} %simple bibtex - numeric citations
+\RequirePackage[round, authoryear]{natbib} % simple bibtex - textual citations
 %\RequirePackage[style=numeric,backend=biber]{biblatex} % complicated bibtex
 \hypersetup{
   linktoc=all,
