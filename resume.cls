@@ -5,11 +5,11 @@
 %REQUIREMENTS
 %----------------------------------------------------------------------------------------------------
 \RequirePackage[vmargin=0.5in, hmargin=1in]{geometry}
+\RequirePackage[T1]{fontenc}                    % better glyphs
 \RequirePackage{nopageno}                       % Remove page numbering.
 \RequirePackage{tgpagella}                      % Palatino
-%\RequirePackage[scaled]{helvet}                % Helvetica, scaled 95%
-\RequirePackage[sfdefault]{classico}                       % Free clone of Optima.
-\RequirePackage[T1]{fontenc}                    % better glyphs
+\RequirePackage[sfdefault]{classico}            % Free clone of Optima.
+\RequirePackage{inconsolata}
 \RequirePackage{adjustbox}                      % getting tables to fit.
 \RequirePackage{enumitem}
 %----------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@
 \setlist{noitemsep}
 \setlist[itemize]{rightmargin=1.5in}
 %----------------------------------------------------------------------------------------------------
-%HEADER AND MACROS
+%HEADER FORMATTING
 %----------------------------------------------------------------------------------------------------
 \makeatletter
 %center aligned header with name prominently at the top.
@@ -62,6 +62,24 @@
 
 \def\@website{\unskip}
 \newcommand{\website}[1]{\def\@website{#1}}
+%----------------------------------------------------------------------------------------------------
+%ITEM FORMATTING
+%----------------------------------------------------------------------------------------------------
+
+
+\newcommand{\experienceHeader}[5]{
+    \textbf{#1}, #2 \hfill{\small #3} \\
+    \emph{#5} \\
+    #4
+}
+
+
+% ProjectName, Description, link
+\newcommand{\projectHeader}[3]{
+  \textbf{#1}\\
+  \emph{#2}\\
+  \texttt{#3}
+}
 
 %----------------------------------------------------------------------------------------------------
 %CLEANUP
