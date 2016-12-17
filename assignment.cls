@@ -24,7 +24,7 @@
 %four-part header with separating middle rule.
 \renewcommand{\maketitle}{
   \textbf{\@class}\hfill Homework \textbf{\@no}\vspace{-5pt}
-  \makebox[\linewidth]{\rule{\linewidth}{1pt}}\\
+  \makebox[\linewidth]{\rule{\linewidth}{2pt}}\\
   \textbf{\@author}\hfill \texttt{\@id}\\
 }
 %macro definitions for the `\maketitle` command.
